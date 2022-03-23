@@ -6,4 +6,6 @@ edition = "2021"
 [features]
 
 [dependencies]
+anyhow = "1.0.56"
 clap = { version = "3.1.6", features = ["derive"]}
+thiserror = "1.0.30"
